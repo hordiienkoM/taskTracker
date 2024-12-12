@@ -7,8 +7,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     '~/assets/styles/main.css'
-  ],
-  app: {
-    baseURL: '/taskTracker/',
-  }
+  ]
 })
