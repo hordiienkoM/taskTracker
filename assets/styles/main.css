@@ -1,0 +1,51 @@
+@import "./vars.css";
+
+* {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  html, body, p, h3 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  input, textarea {
+    border: var(--input-border-width) solid var(--input-border-color);
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: var(--placeholder-color);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+body {
+    -ms-overflow-style: scrollbar; 
+}

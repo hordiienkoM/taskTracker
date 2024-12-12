@@ -1,0 +1,10 @@
+:root {
+    --input-border-width: 1px;
+    --input-border-color: gray;
+    --placeholder-color: gray;
+    --label-color: gray;
+    --error-msg-color: red;
+    --card-title-color: #2e394d;
+    --task-card-label-color: #c6c6c6;
+    --edit-card-label-color: #2e394d;
+}
