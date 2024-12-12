@@ -3,8 +3,8 @@
       <div class="popup">
         <p class="popup-message">{{ message }}</p>
         <div class="popup-buttons">
-          <button class="popup-button agree" @click="onAgree(true)">Да</button>
-          <button class="popup-button disagree" @click="onAgree(false)">Нет</button>
+          <button class="popup-button agree" @click="onAgree(true)">Yes</button>
+          <button class="popup-button disagree" @click="onAgree(false)">No</button>
         </div>
       </div>
     </div>
